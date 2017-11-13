@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D73896F51FBA04BB006DB070 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73896F41FBA04BB006DB070 /* AppDelegate.swift */; };
+		D73896F71FBA04BB006DB070 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73896F61FBA04BB006DB070 /* ViewController.swift */; };
+		D73896FA1FBA04BB006DB070 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D73896F81FBA04BB006DB070 /* Main.storyboard */; };
+		D73896FC1FBA04BB006DB070 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D73896FB1FBA04BB006DB070 /* Assets.xcassets */; };
+		D73896FF1FBA04BB006DB070 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D73896FD1FBA04BB006DB070 /* LaunchScreen.storyboard */; };
+		D738970A1FBA04BB006DB070 /* DinWinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73897091FBA04BB006DB070 /* DinWinTests.swift */; };
+		D73897151FBA04BB006DB070 /* DinWinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73897141FBA04BB006DB070 /* DinWinUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D73897061FBA04BB006DB070 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D73896E91FBA04BA006DB070 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D73896F01FBA04BB006DB070;
+			remoteInfo = DinWin;
+		};
+		D73897111FBA04BB006DB070 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D73896E91FBA04BA006DB070 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D73896F01FBA04BB006DB070;
+			remoteInfo = DinWin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D73896F11FBA04BB006DB070 /* DinWin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DinWin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D73896F41FBA04BB006DB070 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D73896F61FBA04BB006DB070 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D73896F91FBA04BB006DB070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D73896FB1FBA04BB006DB070 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D73896FE1FBA04BB006DB070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D73897001FBA04BB006DB070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D73897051FBA04BB006DB070 /* DinWinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DinWinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D73897091FBA04BB006DB070 /* DinWinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinWinTests.swift; sourceTree = "<group>"; };
+		D738970B1FBA04BB006DB070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D73897101FBA04BB006DB070 /* DinWinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DinWinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D73897141FBA04BB006DB070 /* DinWinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinWinUITests.swift; sourceTree = "<group>"; };
+		D73897161FBA04BB006DB070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D73896EE1FBA04BB006DB070 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D73897021FBA04BB006DB070 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D738970D1FBA04BB006DB070 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D73896E81FBA04BA006DB070 = {
+			isa = PBXGroup;
+			children = (
+				D73896F31FBA04BB006DB070 /* DinWin */,
+				D73897081FBA04BB006DB070 /* DinWinTests */,
+				D73897131FBA04BB006DB070 /* DinWinUITests */,
+				D73896F21FBA04BB006DB070 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D73896F21FBA04BB006DB070 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D73896F11FBA04BB006DB070 /* DinWin.app */,
+				D73897051FBA04BB006DB070 /* DinWinTests.xctest */,
+				D73897101FBA04BB006DB070 /* DinWinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D73896F31FBA04BB006DB070 /* DinWin */ = {
+			isa = PBXGroup;
+			children = (
+				D73896F41FBA04BB006DB070 /* AppDelegate.swift */,
+				D73896F61FBA04BB006DB070 /* ViewController.swift */,
+				D73896F81FBA04BB006DB070 /* Main.storyboard */,
+				D73896FB1FBA04BB006DB070 /* Assets.xcassets */,
+				D73896FD1FBA04BB006DB070 /* LaunchScreen.storyboard */,
+				D73897001FBA04BB006DB070 /* Info.plist */,
+			);
+			path = DinWin;
+			sourceTree = "<group>";
+		};
+		D73897081FBA04BB006DB070 /* DinWinTests */ = {
+			isa = PBXGroup;
+			children = (
+				D73897091FBA04BB006DB070 /* DinWinTests.swift */,
+				D738970B1FBA04BB006DB070 /* Info.plist */,
+			);
+			path = DinWinTests;
+			sourceTree = "<group>";
+		};
+		D73897131FBA04BB006DB070 /* DinWinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D73897141FBA04BB006DB070 /* DinWinUITests.swift */,
+				D73897161FBA04BB006DB070 /* Info.plist */,
+			);
+			path = DinWinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D73896F01FBA04BB006DB070 /* DinWin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D73897191FBA04BB006DB070 /* Build configuration list for PBXNativeTarget "DinWin" */;
+			buildPhases = (
+				D73896ED1FBA04BB006DB070 /* Sources */,
+				D73896EE1FBA04BB006DB070 /* Frameworks */,
+				D73896EF1FBA04BB006DB070 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DinWin;
+			productName = DinWin;
+			productReference = D73896F11FBA04BB006DB070 /* DinWin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D73897041FBA04BB006DB070 /* DinWinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D738971C1FBA04BB006DB070 /* Build configuration list for PBXNativeTarget "DinWinTests" */;
+			buildPhases = (
+				D73897011FBA04BB006DB070 /* Sources */,
+				D73897021FBA04BB006DB070 /* Frameworks */,
+				D73897031FBA04BB006DB070 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D73897071FBA04BB006DB070 /* PBXTargetDependency */,
+			);
+			name = DinWinTests;
+			productName = DinWinTests;
+			productReference = D73897051FBA04BB006DB070 /* DinWinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D738970F1FBA04BB006DB070 /* DinWinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D738971F1FBA04BB006DB070 /* Build configuration list for PBXNativeTarget "DinWinUITests" */;
+			buildPhases = (
+				D738970C1FBA04BB006DB070 /* Sources */,
+				D738970D1FBA04BB006DB070 /* Frameworks */,
+				D738970E1FBA04BB006DB070 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D73897121FBA04BB006DB070 /* PBXTargetDependency */,
+			);
+			name = DinWinUITests;
+			productName = DinWinUITests;
+			productReference = D73897101FBA04BB006DB070 /* DinWinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D73896E91FBA04BA006DB070 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Dev;
+				TargetAttributes = {
+					D73896F01FBA04BB006DB070 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					D73897041FBA04BB006DB070 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D73896F01FBA04BB006DB070;
+					};
+					D738970F1FBA04BB006DB070 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D73896F01FBA04BB006DB070;
+					};
+				};
+			};
+			buildConfigurationList = D73896EC1FBA04BA006DB070 /* Build configuration list for PBXProject "DinWin" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D73896E81FBA04BA006DB070;
+			productRefGroup = D73896F21FBA04BB006DB070 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D73896F01FBA04BB006DB070 /* DinWin */,
+				D73897041FBA04BB006DB070 /* DinWinTests */,
+				D738970F1FBA04BB006DB070 /* DinWinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D73896EF1FBA04BB006DB070 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D73896FF1FBA04BB006DB070 /* LaunchScreen.storyboard in Resources */,
+				D73896FC1FBA04BB006DB070 /* Assets.xcassets in Resources */,
+				D73896FA1FBA04BB006DB070 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D73897031FBA04BB006DB070 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D738970E1FBA04BB006DB070 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D73896ED1FBA04BB006DB070 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D73896F71FBA04BB006DB070 /* ViewController.swift in Sources */,
+				D73896F51FBA04BB006DB070 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D73897011FBA04BB006DB070 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D738970A1FBA04BB006DB070 /* DinWinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D738970C1FBA04BB006DB070 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D73897151FBA04BB006DB070 /* DinWinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D73897071FBA04BB006DB070 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D73896F01FBA04BB006DB070 /* DinWin */;
+			targetProxy = D73897061FBA04BB006DB070 /* PBXContainerItemProxy */;
+		};
+		D73897121FBA04BB006DB070 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D73896F01FBA04BB006DB070 /* DinWin */;
+			targetProxy = D73897111FBA04BB006DB070 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D73896F81FBA04BB006DB070 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D73896F91FBA04BB006DB070 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D73896FD1FBA04BB006DB070 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D73896FE1FBA04BB006DB070 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D73897171FBA04BB006DB070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D73897181FBA04BB006DB070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D738971A1FBA04BB006DB070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AT38N6VXX;
+				INFOPLIST_FILE = DinWin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mywaytech..DinWin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D738971B1FBA04BB006DB070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AT38N6VXX;
+				INFOPLIST_FILE = DinWin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mywaytech..DinWin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D738971D1FBA04BB006DB070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AT38N6VXX;
+				INFOPLIST_FILE = DinWinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mywaytech..DinWinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DinWin.app/DinWin";
+			};
+			name = Debug;
+		};
+		D738971E1FBA04BB006DB070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AT38N6VXX;
+				INFOPLIST_FILE = DinWinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mywaytech..DinWinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DinWin.app/DinWin";
+			};
+			name = Release;
+		};
+		D73897201FBA04BB006DB070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AT38N6VXX;
+				INFOPLIST_FILE = DinWinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mywaytech..DinWinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DinWin;
+			};
+			name = Debug;
+		};
+		D73897211FBA04BB006DB070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AT38N6VXX;
+				INFOPLIST_FILE = DinWinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mywaytech..DinWinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DinWin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D73896EC1FBA04BA006DB070 /* Build configuration list for PBXProject "DinWin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D73897171FBA04BB006DB070 /* Debug */,
+				D73897181FBA04BB006DB070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D73897191FBA04BB006DB070 /* Build configuration list for PBXNativeTarget "DinWin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D738971A1FBA04BB006DB070 /* Debug */,
+				D738971B1FBA04BB006DB070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D738971C1FBA04BB006DB070 /* Build configuration list for PBXNativeTarget "DinWinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D738971D1FBA04BB006DB070 /* Debug */,
+				D738971E1FBA04BB006DB070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D738971F1FBA04BB006DB070 /* Build configuration list for PBXNativeTarget "DinWinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D73897201FBA04BB006DB070 /* Debug */,
+				D73897211FBA04BB006DB070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D73896E91FBA04BA006DB070 /* Project object */;
+}
