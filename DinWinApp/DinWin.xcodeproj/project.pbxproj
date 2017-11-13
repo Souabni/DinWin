@@ -14,6 +14,9 @@
 		D73896FF1FBA04BB006DB070 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D73896FD1FBA04BB006DB070 /* LaunchScreen.storyboard */; };
 		D738970A1FBA04BB006DB070 /* DinWinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73897091FBA04BB006DB070 /* DinWinTests.swift */; };
 		D73897151FBA04BB006DB070 /* DinWinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73897141FBA04BB006DB070 /* DinWinUITests.swift */; };
+		D73897241FBA16DC006DB070 /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73897231FBA16DC006DB070 /* Piece.swift */; };
+		D73897261FBA174E006DB070 /* Couple.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73897251FBA174E006DB070 /* Couple.swift */; };
+		D73897281FBA1F89006DB070 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73897271FBA1F89006DB070 /* Grid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		D73897101FBA04BB006DB070 /* DinWinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DinWinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D73897141FBA04BB006DB070 /* DinWinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinWinUITests.swift; sourceTree = "<group>"; };
 		D73897161FBA04BB006DB070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D73897231FBA16DC006DB070 /* Piece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piece.swift; sourceTree = "<group>"; };
+		D73897251FBA174E006DB070 /* Couple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Couple.swift; sourceTree = "<group>"; };
+		D73897271FBA1F89006DB070 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,7 @@
 		D73896F31FBA04BB006DB070 /* DinWin */ = {
 			isa = PBXGroup;
 			children = (
+				D73897221FBA1421006DB070 /* Model */,
 				D73896F41FBA04BB006DB070 /* AppDelegate.swift */,
 				D73896F61FBA04BB006DB070 /* ViewController.swift */,
 				D73896F81FBA04BB006DB070 /* Main.storyboard */,
@@ -123,6 +130,16 @@
 				D73897161FBA04BB006DB070 /* Info.plist */,
 			);
 			path = DinWinUITests;
+			sourceTree = "<group>";
+		};
+		D73897221FBA1421006DB070 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D73897231FBA16DC006DB070 /* Piece.swift */,
+				D73897251FBA174E006DB070 /* Couple.swift */,
+				D73897271FBA1F89006DB070 /* Grid.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +278,9 @@
 			files = (
 				D73896F71FBA04BB006DB070 /* ViewController.swift in Sources */,
 				D73896F51FBA04BB006DB070 /* AppDelegate.swift in Sources */,
+				D73897241FBA16DC006DB070 /* Piece.swift in Sources */,
+				D73897281FBA1F89006DB070 /* Grid.swift in Sources */,
+				D73897261FBA174E006DB070 /* Couple.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
